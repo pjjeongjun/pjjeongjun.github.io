@@ -3345,24 +3345,24 @@ body.is-touch .poptrox-popup .closer {
 
 }
 
-/* PNG icons (CV) */
+/* PNG icons */
 .icon-png {
 	width: 1.6em;
 	height: 1.6em;
 	display: inline-block;
 	vertical-align: middle;
 	transform: translateY(-0.225em);
-	filter: brightness(0) invert(0.7);
+	opacity: 0.5;
 }
 
-/* SVG icons (Bluesky) */
+/* SVG icons */
 .icons .svg-icon {
 	width: 1.3em;
 	height: 1.3em;
 	display: inline-block;
 	vertical-align: middle;
 	transform: translateY(-0.225em);
-	filter: brightness(0) invert(0.7);
+	opacity: 0.5;
 }
 
 #footer a {
