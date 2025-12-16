@@ -3352,20 +3352,25 @@ body.is-touch .poptrox-popup .closer {
 	display: inline-block;
 	vertical-align: middle;
 	transform: translateY(-0.225em);
-	opacity: 0.5;
+	opacity: 0.4;
 	filter: invert(1);
 }
 
 /* SVG icons */
-.icons .svg-icon {
-	width: 1.3em;
-	height: 1.3em;
-	display: inline-block;
-	vertical-align: middle;
-	transform: translateY(-0.225em);
-	opacity: 0.5;
-	filter: invert(1);
+#footer .icons .svg-icon {
+  width: 1.3em;
+  height: 1.3em;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateY(-0.225em);
+
+  /* key change: make everything black, then invert -> white */
+  filter: brightness(0) invert(1);
+
+  /* match Font Awesome in your footer (#footer .icons a is 0.4) */
+  opacity: 0.4;
 }
+
 
 #footer a {
 	border-bottom: none !important;
